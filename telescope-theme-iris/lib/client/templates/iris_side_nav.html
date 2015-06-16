@@ -1,0 +1,17 @@
+<template name="iris_side_nav">
+  <nav class="iris-side-tabs desktop-only">
+
+    {{#if logoUrl}}
+      <h1 class="iris-tabs-logo">
+        <a href="/">
+          <img class="logo-image" src="{{logoUrl}}" alt="{{getSetting "title" "Telescope"}}"/>
+        </a>
+      </h1>
+    {{else}}
+      <div class="iris-tabs-no-logo"></div>
+    {{/if}}
+
+    {{> iris_tabs}}
+
+  </nav>
+</template>

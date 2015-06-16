@@ -1,0 +1,580 @@
+body {
+  background: #fff;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dd3416;
+}
+
+.main-header {
+  border-bottom: 1px solid #bbb;
+  margin: 0 0 15px 0;
+}
+
+.tagline {
+  display: none;
+}
+
+.logo.header-module.mobile-only {
+  margin-top: 0;
+  text-align: center;
+}
+
+.with-tagline, .with-tagline a, .with-tagline a:hover, .with-tagline a:visited, .without-tagline, .without-tagline a, .without-tagline a:hover, .without-tagline a:visited {
+  font-size: 36px;
+  color: #000;
+  margin: 0;
+  float: left;
+  text-decoration: none;
+}
+
+.without-tagline, .without-tagline a, .without-tagline a:hover, .without-tagline a:visited {
+  position: relative;
+  top: 7px;
+}
+
+.with-tagline a small {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #aaa;
+  letter-spacing: 2px;
+  margin-top: 3px;
+}
+
+.main-header .header-actions {
+  padding: 16px 0;
+}
+
+.main-header .header-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.menu-dropdown .menu-menu .menu-contents {
+  text-align: left;
+}
+
+.menu-dropdown .menu-menu {
+  display: none;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  padding-top: 20px;
+  z-index: 10000;
+}
+
+.account-link.sign-up, .header-item.categories-menu .menu-top-level {
+  text-transform: capitalize;
+}
+
+.account-link.sign-up {
+  margin-right: -27px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #286090;
+}
+
+.error.success-message.module {
+  background: #fff;
+  border: 1px solid #dd3416;
+  color: #dd3416;
+}
+
+.side-nav .header nav.iris-side-tabs {
+  padding: 10px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.iris-tabs-logo, .iris-tabs-no-logo {
+  display: block;
+  width: 58px;
+  height: 58px;
+  margin: 25px auto;
+}
+
+.iris-tabs-logo .logo-image {
+  width: 100%;
+  height: 100%;
+}
+
+.iris-tabs-no-logo {
+  background: transparent;
+}
+
+.iris-tabs-tab {
+  background: transparent;
+  height: 50px;
+}
+
+.iris-tabs-tab a {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.iris-tabs-tab a:hover, .iris-tabs-tab a:focus {
+  text-decoration: none;
+}
+
+.fa-line-chart {
+  font-size: 20px;
+}
+
+.fa-line-chart.fa-stack-1x {
+  line-height: 4.2em;
+}
+
+.fa-clock-o {
+  font-size: 30px;
+}
+
+.fa-clock-o.fa-stack-1x {
+  line-height: 2.8em;
+}
+
+.fa-star {
+  font-size: 28px;
+}
+
+.fa-star.fa-stack-1x {
+  line-height: 3em;
+}
+
+.fa-calendar-o, .fa-inbox, .fa-calendar {
+  font-size: 24px;
+}
+
+.fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x {
+  line-height: 3.4em;
+}
+
+.post-rank.post-module {
+  display: none;
+}
+
+.post-category {
+  display: none;
+}
+
+.avatar-small {  
+  width: 40px;
+  height: 40px;
+}
+
+.post-avatars .avatar {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.avatar-small .avatar-initials {
+  font-size: 13px;
+  line-height: 40px;
+}
+
+.mobile-nav-open nav.mobile-only.navbar.navbar-default.navbar-fixed-bottom {
+  left: calc(100% - 60px);
+}
+
+.sub-header {
+  margin-bottom: 10px;
+}
+
+.header-item.categories-menu {
+  padding: 4px 0;
+  width: 100px;
+}
+
+.search {
+  position: relative;
+}
+
+.search.empty .search-field {
+  max-width: 120px;
+}
+
+.search input#search.search-field {
+  color: #ddd;
+}
+
+.search .search-field {
+  font-size: 14px;
+  padding: 4px 12px;
+  line-height: 1.3;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+  transition: 0.2s all;
+  -webkit-appearance: textfield;
+  background: white;
+}
+
+.banner.banner {
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter-tagline {
+  font-weight: normal;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.posts-list-views {
+  display: none;
+}
+
+h3.post-heading {
+  margin-top: 0px;
+}
+
+h3.post-heading .post-title {
+  font-size: 22px;
+}
+
+.single-post .posts .post {
+  border-radius: 0px;
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.post {
+  padding: 15px 0px 15px 10px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: white;
+}
+
+.post-body {
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  background: #eee;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.post:last-child { 
+  border-bottom: 0px;
+}
+
+.page-body {
+  box-shadow: none;
+  border: none;
+}
+
+.single-post .posts .post .post-discuss.post-module {
+  display: none;
+}
+
+.grid-block, .comment-content {  
+  border-radius: 3px;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.comment-new {
+  padding: 15px;
+  margin-bottom: 10px;  
+  box-shadow: none;
+}
+
+.comment-content, .comment-new {
+  background: #fff;
+}  
+
+.grid-block {
+  background: #eee;
+}
+
+.comment-actions a {
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: white;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+  border: 1px solid #ddd;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.user-profile .avatar {
+  margin: 10px auto;
+}
+
+.side-nav .pages-menu a {
+  display: inline-block;  
+  padding: 15px 10px;  
+}
+
+.footer-page-links .header-submodule.pages-menu {
+  border-top: 1px solid #bbb;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mobile-only.mobile-menu-button.button, .mobile-only.mobile-submit-button.button, .mobile-only.mobile-signin-button.button {
+  border: 1px solid transparent;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.mobile-nav #submit.mobile-submit-button, .mobile-nav .mobile-signin-button {
+  display: none;
+}
+
+.header #submit.mobile-submit-button, .header .mobile-signin-button {    
+  position: absolute;
+  display: inline-block;
+  padding: 4px;
+  top: 50%;
+  right: 10px;
+  margin-top: -17px;
+  text-align: center;
+  width: 30px;
+  z-index:100;
+}
+
+h1.logo.header-module.mobile-only .mobile-title {
+  color: #000;
+}
+
+/*---------------------------------------*/
+/*                                       */
+/*   Styles for Various Screen Sizes     */
+/*                                       */
+/*---------------------------------------*/
+
+@media screen and (max-width: 30em) {
+  .newsletter-tagline {
+    margin-bottom: 0px;
+    padding: 5px 30px;
+  }
+}  
+
+@media screen and (min-width: 600px) {
+  .side-nav .inner-wrapper {
+    margin-left: 80px;
+    padding: 30px 42px;
+  }
+
+  .side-nav .header {
+    width: 80px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 599px) {
+  .side-nav .header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    height: 50px;
+    border-bottom: 1px solid #bbb;
+  }
+
+  .search.empty .search-field {    
+    background: #fff;
+  }
+
+  .content-wrapper {
+    overflow-x: hidden;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  h3.post-heading .post-title {
+    font-size: 18px;
+  }
+
+  nav.navbar ul {
+    text-align: center;
+  }  
+
+  .navbar-default {
+    background-color: #4e555d;
+    border-color: #e7e7e7;
+  }
+
+  .navbar-fixed-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 99;  
+}
+
+  .iris-tabs-tab {
+    display: inline;
+  }
+
+  .fa-plus-circle {
+    color: #dd3416;
+    background: #fff;
+    font-size: 30px;
+    height: 40px;
+    padding-right: 5px;
+  }
+
+  .fa-stack {
+    bottom: 5px;
+    width: 2.2em;
+  }
+
+  .fa-2x {
+    font-size: 1.5em;
+  }
+
+  .fa-line-chart {
+    font-size: 15px;
+  }
+
+  .fa-line-chart.fa-stack-1x {
+    line-height: 4.2em;
+  }
+
+  .fa-clock-o {
+    font-size: 24px;
+  }
+
+  .fa-clock-o.fa-stack-1x {
+    line-height: 2.52em;
+  }
+
+  .fa-star {
+    font-size: 23px;
+  }
+
+  .fa-star.fa-stack-1x {
+    line-height: 2.7em;
+  }
+
+  .fa-calendar-o, .fa-inbox, .fa-calendar {
+    font-size: 19px;
+  }
+
+  .fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x {
+    line-height: 3.3em;
+  }  
+
+  .account-link.sign-up {
+    margin-right: 0;
+  }
+
+  .side-nav .pages-menu a {
+    display: block;
+    padding: 10px;  
+    margin-bottom: 0;
+  }
+}
+
+/*--------------------------*/
+/*                          */
+/*   Styles for Tooltip     */
+/*                          */
+/*--------------------------*/
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius:    3px;
+  border-radius:         3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}

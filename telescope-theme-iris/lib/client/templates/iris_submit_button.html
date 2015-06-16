@@ -1,0 +1,8 @@
+<template name="iris_submit_button">
+  {{#if canPost}}
+    <a id="submit" class="submit btn header-submodule btn-primary desktop-only" href="/submit">{{_ "post"}}</a>
+    <a id="submit" class="mobile-only mobile-submit-button button" href="/submit">{{{icon "plus"}}}</a>
+  {{else}}  
+  	<a class="mobile-only mobile-signin-button button" href="{{pathFor route='atSignIn'}}">{{{icon "sign-in"}}}</a>
+  {{/if}}
+</template>

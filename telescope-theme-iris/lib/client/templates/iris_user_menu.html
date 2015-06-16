@@ -1,0 +1,12 @@
+<template name="iris_user_menu">
+  {{#if isLoggedIn}}  	  	    
+    {{> menuComponent menuName="user" menuLabel=menuLabel menuItems=menuItems menuClass="header-submodule mobile-only" menuMode=menuMode menuCollapsed=true}}
+    {{> menuComponent menuName="user" menuLabel=menuLabel menuItems=menuItems menuClass="header-submodule desktop-only" menuMode="dropdown" menuCollapsed=true}}           
+  {{else}}
+  	<a class="account-link sign-in btn header-submodule btn-primary desktop-only" href="{{pathFor route='atSignUp'}}">{{_ "sign_up"}}</a>
+    <a class="account-link sign-up btn header-submodule btn-primary desktop-only" href="{{pathFor route='atSignIn'}}">{{_ "sign_in"}}</a>
+    <a class="account-link sign-in mobile-only" href="{{pathFor route='atSignUp'}}">{{_ "sign_up"}}</a>
+    <a class="account-link sign-up mobile-only" href="{{pathFor route='atSignIn'}}">{{_ "sign_in"}}</a>
+  {{/if}}
+</template>
+

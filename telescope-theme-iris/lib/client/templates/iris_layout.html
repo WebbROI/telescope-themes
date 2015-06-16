@@ -1,0 +1,22 @@
+<template name="iris_layout">
+  {{> css}}
+  <div class="outer-wrapper {{currentPage}} {{navLayout}}">
+    {{> mobile_nav}}
+    <div class="inner-wrapper template-{{pageName}}">
+      {{> nav}}
+      <div class="content-wrapper">
+        {{> iris_header}}
+        {{> iris_sub_header}}
+        {{> messages}}
+        {{> modules "hero"}}
+        {{> yield "adminMenu"}}
+        {{> yield "postsListTop"}}
+        {{> yield}}
+        {{> footer}}
+      </div>        
+      {{> iris_bottom_nav}}
+      <div class="overlay hidden"></div>
+    </div>
+    {{{extraCode}}}
+  </div>
+</template>

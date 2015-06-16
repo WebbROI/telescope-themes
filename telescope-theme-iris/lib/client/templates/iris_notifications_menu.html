@@ -1,0 +1,6 @@
+<template name="iris_notifications_menu">
+  {{#if isLoggedIn}}
+    {{> menuComponent menuName="notifications" menuLabel=menuLabel menuItems=menuItems menuClass="header-submodule mobile-only" menuMode=menuMode menuCollapsed=true}}
+    {{> menuComponent menuName="notifications" menuLabel=menuLabel menuItems=menuItems menuClass="header-submodule desktop-only" menuMode="dropdown" menuCollapsed=true}}
+  {{/if}}
+</template>
