@@ -11,4 +11,4 @@ Free professional themes for Telescope brought to you by [WebbROI](http://webbro
 
 ### License
 
-Scopemount is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+WebbROI Telescope Themes are licensed under the [MIT license](http://opensource.org/licenses/MIT).
