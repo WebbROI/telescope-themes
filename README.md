@@ -7,7 +7,7 @@ Free professional themes for Telescope brought to you by [WebbROI](http://webbro
 
 ### Telescope Iris
 
-[Imgur](http://i.imgur.com/dKQrzHN.png)
+![Imgur](http://i.imgur.com/dKQrzHN.png)
 
 ### Credits
 
