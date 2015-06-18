@@ -7,7 +7,7 @@ Free professional themes for Telescope brought to you by [WebbROI](http://webbro
 
 [Telescope](http://www.telescopeapp.org/) is an open source Meteor app that makes it easy to launch communities like Reddit, Hacker News, and Product Hunt.
 
-### Telescope Iris
+[### Telescope Iris](https://github.com/WebbROI/telescope-themes/tree/master/telescope-theme-iris)
 
 [![Imgur](http://i.imgur.com/QP3OaRm.png)](https://github.com/WebbROI/telescope-themes/tree/master/telescope-theme-iris)
 
