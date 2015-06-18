@@ -14,6 +14,11 @@ a:hover {
   color: #dd3416;
 }
 
+.content-wrapper {
+  padding: 0 10px;
+  max-width: 1400px;
+}
+
 .main-header {
   border-bottom: 1px solid #bbb;
   margin: 0 0 15px 0;
@@ -476,27 +481,27 @@ h1.logo.header-module.mobile-only .mobile-title {
   }
 
   .fa-clock-o {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   .fa-clock-o.fa-stack-1x {
-    line-height: 2.52em;
+    line-height: 2.51em;
   }
 
   .fa-star {
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .fa-star.fa-stack-1x {
-    line-height: 2.7em;
+    line-height: 3em;
   }
 
   .fa-calendar-o, .fa-inbox, .fa-calendar {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x {
-    line-height: 3.3em;
+    line-height: 3.4em;
   }  
 
   .account-link.sign-up {
