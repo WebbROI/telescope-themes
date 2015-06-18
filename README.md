@@ -15,6 +15,6 @@ Free professional themes for Telescope brought to you by [WebbROI](http://webbro
 
 [Sacha Greif](https://github.com/SachaG) for building [Telescope](https://github.com/TelescopeJS/Telescope).
 
-### License
+### Mailing List
 
-WebbROI Telescope Themes are licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Be the first to know when we release new Telescope themes. [Subscribe to newsletter](http://telescope-themes.meteor.com/)
