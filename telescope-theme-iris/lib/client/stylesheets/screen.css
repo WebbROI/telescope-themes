@@ -195,6 +195,15 @@ a:hover {
   line-height: 40px;
 }
 
+.posts.list.posts-grid .avatar-small {
+  width: 24px;
+  height: 24px;
+}
+.posts.list.posts-grid .avatar {
+  width: 24px;
+  height: 24px;
+}
+
 .mobile-nav-open nav.mobile-only.navbar.navbar-default.navbar-fixed-bottom {
   left: calc(100% - 60px);
 }
