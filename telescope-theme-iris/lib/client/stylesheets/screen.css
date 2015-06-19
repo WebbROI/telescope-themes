@@ -422,6 +422,10 @@ h1.logo.header-module.mobile-only .mobile-title {
 }
 
 @media (max-width: 599px) {
+  .header .logo {
+    padding: 0 35px;
+  }
+  
   .side-nav .header {
     width: 100%;
     background-color: #fff;
