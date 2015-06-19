@@ -1,6 +1,6 @@
 Package.describe({
   name: 'webbroi:telescope-theme-iris',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Telescope Iris theme package for RefactorScope v0.20 version.',
   git: 'https://github.com/WebbROI/telescope-themes.git'
 });
