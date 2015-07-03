@@ -1,7 +1,7 @@
 WebbROI Telescope Themes
 =========
 
-*Themes are compatible with latest Telescope v0.20.5*
+*Themes are compatible with Telescope v0.20 and up.*
 
 Free professional themes for Telescope brought to you by [WebbROI](http://webbroi.com).
 
