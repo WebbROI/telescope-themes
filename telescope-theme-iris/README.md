@@ -1,7 +1,7 @@
 Telescope Iris Theme
 ========
 
-*Compatible with latest Telescope v0.20, v0.21*
+*Compatible with latest Telescope v0.22*
 
 Telescope Iris is the first theme to be released by [WebbROI Telescope Themes](http://telescope-themes.meteor.com).
 
@@ -34,7 +34,7 @@ The theme is named after a NASA solar observation satellite called Interface Reg
 
 ### Mailing List
 
-Be the first to know when we release new Telescope themes. [Subscribe to newsletter](http://telescope-themes.meteor.com/)
+Be the first to know when we release Iris theme updates, and brand-new Telescope themes. [Subscribe to newsletter](http://telescope-themes.meteor.com/)
 
 ### Credits
 

@@ -11,10 +11,9 @@ Package.onUse(function (api) {
 
   api.use([
     // core dependencies
-    'telescope:core@0.22.1',
-    'telescope:lib@0.22.1',
-    'telescope:theme-base@0.22.1',
-    'telescope:theme-hubble@0.22.1'
+    'telescope:core@0.22.2',
+    'telescope:theme-base@0.22.2',
+    'telescope:theme-hubble@0.22.2'
   ]);
 
   api.use([
@@ -37,20 +36,20 @@ Package.onUse(function (api) {
     [
     // template overrides
     'lib/client/templates/iris_layout.html',
-    'lib/client/templates/iris_header.html',
-    'lib/client/templates/iris_header.js',
+    'lib/client/templates/iris_main_header.html',
+    'lib/client/templates/iris_main_header.js',
     'lib/client/templates/iris_sub_header.html',
     'lib/client/templates/iris_categories_menu.html',
     'lib/client/templates/iris_side_nav.html',
     'lib/client/templates/iris_side_nav.js',
     'lib/client/templates/iris_bottom_nav.html',
     'lib/client/templates/iris_tabs.html',
-    'lib/client/templates/iris_nav.html',
+    'lib/client/templates/iris_header.html',
     'lib/client/templates/iris_user_menu.html',
     'lib/client/templates/iris_notifications_menu.html',
     'lib/client/templates/iris_post_avatars.html',
     'lib/client/templates/iris_submit_button.html',
-    'lib/client/templates/iris_footer.html',
+    'lib/client/templates/iris_footer_code.html',
 
     // custom styles                  
     'lib/client/stylesheets/screen.css',

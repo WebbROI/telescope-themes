@@ -28,11 +28,6 @@ a:hover {
   display: none;
 }
 
-.logo.header-module.mobile-only {
-  margin-top: 0;
-  text-align: center;
-}
-
 .with-tagline, .with-tagline a, .with-tagline a:hover, .with-tagline a:visited, .without-tagline, .without-tagline a, .without-tagline a:hover, .without-tagline a:visited {
   font-size: 36px;
   color: #000;
@@ -174,7 +169,7 @@ a:hover {
   display: none;
 }
 
-.post-category {
+.post-categories {
   display: none;
 }
 
@@ -256,16 +251,8 @@ a:hover {
   vertical-align: middle;
 }
 
-.posts-list-views {
+.posts-views-nav {
   display: none;
-}
-
-h3.post-heading {
-  margin-top: 0px;
-}
-
-h3.post-heading .post-title {
-  font-size: 22px;
 }
 
 .single-post .posts .post {
@@ -274,8 +261,12 @@ h3.post-heading .post-title {
   border-bottom: none;
 }
 
+.posts-list .post {
+  padding: 15px 0 15px 10px;
+  justify-content: space-between;
+}
+
 .post {
-  padding: 15px 0px 15px 10px;
   border-radius: 0px;
   margin-bottom: 0px;
   display: -webkit-box;
@@ -358,6 +349,13 @@ h3.post-heading .post-title {
   padding: 15px 10px;  
 }
 
+.footer {
+  text-align: center;
+  padding: 10px 0 10px 0;
+  color: rgba(0,0,0,0.4);
+  font-size: 14px;
+}
+
 .footer-page-links .header-submodule.pages-menu {
   border-top: 1px solid #bbb;
   text-align: center;
@@ -419,11 +417,19 @@ h1.logo.header-module.mobile-only .mobile-title {
     overflow-y: auto;
     padding-bottom: 30px;
   }
+
+  .post-heading .post-title {
+    font-size: 22px;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 599px) {
-  .header .logo {
+  .logo {
     padding: 0 35px;
+    margin-top: 0;
+    margin-bottom: 0;    
+    text-align: center;
   }
   
   .side-nav .header {
@@ -441,12 +447,21 @@ h1.logo.header-module.mobile-only .mobile-title {
   .content-wrapper {
     overflow-x: hidden;
     position: relative;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
-  h3.post-heading .post-title {
+  .messages {
+    margin-top: 35px;
+  }
+
+  .post-heading .post-title {
     font-size: 18px;
+    margin-top: 0;
+  }
+
+  .post-thumbnail-image {
+    display: none;
   }
 
   nav.navbar ul {
@@ -525,6 +540,13 @@ h1.logo.header-module.mobile-only .mobile-title {
     display: block;
     padding: 10px;  
     margin-bottom: 0;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px 0 35px 0;
+    color: rgba(0,0,0,0.4);
+    font-size: 14px;
   }
 }
 

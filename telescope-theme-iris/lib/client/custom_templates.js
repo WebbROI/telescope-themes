@@ -1,9 +1,9 @@
-// Override "layout" template
+// Override templates
 Template.iris_layout.replaces("layout");
-Template.iris_nav.replaces("nav");
+Template.iris_header.replaces("header");
 Template.iris_user_menu.replaces("user_menu");
 Template.iris_notifications_menu.replaces("notifications_menu");
 Template.iris_post_avatars.replaces("post_avatars");
 Template.iris_submit_button.replaces("submit_button");
 Template.iris_categories_menu.replaces("categories_menu");
-Template.iris_footer.replaces("footer");
+Template.iris_footer_code.replaces("footer_code");

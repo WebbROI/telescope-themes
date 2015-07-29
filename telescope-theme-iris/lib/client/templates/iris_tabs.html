@@ -1,54 +1,54 @@
 <template name="iris_tabs">
 	<ul>
+    <li class="iris-tabs-tab">
+      <a href="{{pathFor route='posts_top'}}" data-tooltip="{{_ "trending"}}">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-line-chart fa-stack-1x"></i>
+        </span>          
+      </a>
+    </li>
+    <li class="iris-tabs-tab">
+      <a href="{{pathFor route='posts_new'}}" data-tooltip="{{_ "recent"}}">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-clock-o fa-stack-1x"></i>
+        </span>       
+      </a>
+    </li>
+    <li class="iris-tabs-tab">
+      <a href="{{pathFor route='posts_best'}}" data-tooltip="{{_ "best"}}">        
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-star fa-stack-1x"></i>
+        </span>
+      </a>
+    </li>
+    <li class="iris-tabs-tab">
+      <a href="{{pathFor route='postsDaily'}}" data-tooltip="{{_ "daily"}}">       
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-calendar-o fa-stack-1x"></i>
+        </span>       
+      </a>
+    </li>
+    {{#if isAdmin}}
       <li class="iris-tabs-tab">
-        <a href="{{pathFor route='posts_top'}}" data-tooltip="{{_ "trending"}}">
+        <a href="{{pathFor route='posts_pending'}}" data-tooltip="{{_ "pending"}}">
           <span class="fa-stack fa-2x">
             <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-line-chart fa-stack-1x"></i>
-          </span>          
-        </a>
-      </li>
-      <li class="iris-tabs-tab">
-        <a href="{{pathFor route='posts_new'}}" data-tooltip="{{_ "recent"}}">
-          <span class="fa-stack fa-2x">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-clock-o fa-stack-1x"></i>
+            <i class="fa fa-inbox fa-stack-1x"></i>
           </span>       
         </a>
       </li>
       <li class="iris-tabs-tab">
-        <a href="{{pathFor route='posts_best'}}" data-tooltip="{{_ "best"}}">         
+        <a href="{{pathFor route='posts_scheduled'}}" data-tooltip="{{_ "scheduled"}}">    
           <span class="fa-stack fa-2x">
             <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-star fa-stack-1x"></i>
-          </span>
-        </a>
-      </li>
-      <li class="iris-tabs-tab">
-        <a href="{{pathFor route='postsDaily'}}" data-tooltip="{{_ "daily"}}">        
-          <span class="fa-stack fa-2x">
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-calendar-o fa-stack-1x"></i>
+            <i class="fa fa-calendar fa-stack-1x"></i>
           </span>       
         </a>
       </li>
-      {{#if isAdmin}}
-        <li class="iris-tabs-tab">
-          <a href="{{pathFor route='posts_pending'}}" data-tooltip="{{_ "pending"}}"> 
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle-thin fa-stack-2x"></i>
-              <i class="fa fa-inbox fa-stack-1x"></i>
-            </span>       
-          </a>
-        </li>
-        <li class="iris-tabs-tab">
-          <a href="{{pathFor route='posts_scheduled'}}" data-tooltip="{{_ "scheduled"}}">    
-            <span class="fa-stack fa-2x">
-              <i class="fa fa-circle-thin fa-stack-2x"></i>
-              <i class="fa fa-calendar fa-stack-1x"></i>
-            </span>       
-          </a>
-        </li>
-      {{/if}}
-    </ul>
+    {{/if}}
+  </ul>
 </template>

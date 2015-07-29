@@ -1,0 +1,35 @@
+<template name="iris_main_header">
+	<header class="main-header desktop-only">
+    <div class="row">
+      <div class="col-sm-6">                    		    
+        {{#if showTaglineBanner}}                
+          <h1 class="with-tagline">
+            <a href="/">
+              {{getSetting "title" "Telescope"}}                  
+              <small>{{getSetting "tagline"}}</small>
+            </a>
+          </h1>    
+        {{else}}  
+          <h1 class="without-tagline">
+            <a href="/">
+            	{{getSetting "title" "Telescope"}}                  
+            </a>  
+          </h1>  
+        {{/if}}                              
+      </div>
+      <div class="col-sm-6 text-right">
+        <div class="header-actions">                
+          <div class="header-item new-user-menu">                  
+            {{> user_menu}}                  
+          </div>
+          <div class="header-item">
+            {{> notifications_menu}}
+          </div>
+          <div class="header-item">
+            {{> submit_button}}
+          </div>
+        </div>  
+      </div>
+    </div>          
+  </header>
+</template>

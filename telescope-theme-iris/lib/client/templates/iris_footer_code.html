@@ -1,0 +1,10 @@
+<template name="iris_footer_code">
+	<div class="footer-code">
+		<span class="footer-page-links desktop-only">{{> pages_menu}}</span>
+  	{{#if footerCode}}
+    	<div class="footer grid {{footerClass}}">
+      	{{#markdown}}{{footerCode}}{{/markdown}}
+    	</div>
+  	{{/if}}
+  </div>
+</template>

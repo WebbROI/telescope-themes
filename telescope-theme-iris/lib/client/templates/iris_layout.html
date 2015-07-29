@@ -3,16 +3,16 @@
   <div class="outer-wrapper {{currentPage}} {{navLayout}}">
     {{> mobile_nav}}
     <div class="inner-wrapper template-{{pageName}}">
-      {{> nav}}
+      {{> header}}      
       <div class="content-wrapper">
-        {{> iris_header}}
+        {{> iris_main_header}}
         {{> iris_sub_header}}
         {{> messages}}
-        {{> modules "hero"}}
+        {{> modules zone="hero"}}
         {{> yield "adminMenu"}}
-        {{> yield "postsListTop"}}
+        {{> modules zone="top" zoneClass="top"}}
         {{> yield}}
-        {{> footer}}
+        {{> modules zone="footer" zoneClass="footer"}}
       </div>        
       {{> iris_bottom_nav}}
       <div class="overlay hidden"></div>
