@@ -291,6 +291,10 @@ a:hover {
   font-size: 16px;
 }
 
+a.read-more:link {
+  color: #fff;
+}
+
 .post:last-child { 
   border-bottom: 0px;
 }

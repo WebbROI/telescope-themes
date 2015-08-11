@@ -1,0 +1,8 @@
+<template name="iris_post_body">
+  <div class="post-body markdown" aria-live="polite">
+  	{{{htmlBody}}}
+  	{{#if url}}
+  		<p><a href="{{postLink}}" class="read-more btn header-submodule btn-primary" target="{{postTarget}}">Read More</a></p>
+  	{{/if}}
+  </div>
+</template>
