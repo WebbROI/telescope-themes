@@ -31,7 +31,7 @@ deps@1.0.7
 djedi:sanitize-html@1.6.1
 ejson@1.0.6
 email@1.0.6
-facebook@1.2.0
+facebook@1.2.1
 fastclick@1.0.3
 fortawesome:fontawesome@4.3.0
 fourseven:scss@2.1.1
@@ -127,4 +127,4 @@ useraccounts:unstyled@1.8.1
 utilities:avatar@0.7.12
 webapp@1.2.0
 webapp-hashing@1.0.3
-webbroi:telescope-theme-iris@0.2.1
+webbroi:telescope-theme-iris@0.2.2

@@ -1,6 +1,6 @@
 Package.describe({
   name: 'webbroi:telescope-theme-iris',
-  version: '0.2.2',
+  version: '0.2.3',
   summary: 'Telescope Iris theme package inpired by Crater.io.',
   git: 'https://github.com/WebbROI/telescope-themes.git'
 });
@@ -11,9 +11,9 @@ Package.onUse(function (api) {
 
   api.use([
     // core dependencies
-    'telescope:core@0.22.2',
-    'telescope:theme-base@0.22.2',
-    'telescope:theme-hubble@0.22.2'
+    'telescope:core@0.23.0',
+    'telescope:theme-base@0.23.0',
+    'telescope:theme-hubble@0.23.0'
   ]);
 
   api.use([
