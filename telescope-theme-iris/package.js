@@ -13,7 +13,9 @@ Package.onUse(function (api) {
     // core dependencies
     'telescope:core@0.23.0',
     'telescope:theme-base@0.23.0',
-    'telescope:theme-hubble@0.23.0'
+    'telescope:theme-hubble@0.23.0',
+    'telescope:tags@0.23.0',
+    'telescope:notifications@0.23.0'
   ]);
 
   api.use([
