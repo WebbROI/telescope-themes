@@ -291,7 +291,7 @@ a:hover {
   font-size: 16px;
 }
 
-a.read-more:link {
+a.read-more:link, a.read-more:hover {
   color: #fff;
 }
 
