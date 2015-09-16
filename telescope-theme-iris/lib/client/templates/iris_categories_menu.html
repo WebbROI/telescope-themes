@@ -1,8 +1,8 @@
 <template name="iris_categories_menu">
-	<div class="categories-menu {{moduleClass}}">
+	<div class="categories-menu-wrapper {{moduleClass}}">
   	{{#if hasCategories}}
-    	{{> menuComponent menuName="categories" menuItems=menuItems menuClass="header-submodule mobile-only" menuMode=menuMode}}
-    	{{> menuComponent menuName="categories" menuItems=menuItems menuClass="header-submodule desktop-only" menuMode="dropdown"}}
+    	{{> menuComponent menuName="categories" menuItems=menuItems menuClass="mobile-only menu-collapsible"}}
+    	{{> menuComponent menuName="categories" menuItems=menuItems menuClass="desktop-only menu-dropdown"}}
   	{{/if}}
   </div>
 </template>
