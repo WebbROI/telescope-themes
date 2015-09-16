@@ -7,6 +7,8 @@ Telescope Iris is the first theme to be released by [WebbROI Telescope Themes](h
 
 [Live Demo](http://telescope-iris.meteor.com)
 
+*Screenshots below are from the first version of the theme. Some minor parts of the theme's UI may have changed since then.*
+
 [![Imgur](http://i.imgur.com/QP3OaRm.png)](http://telescope-iris.meteor.com/)
 
 [![Imgur](http://i.imgur.com/FmutlsO.jpg)](http://telescope-iris.meteor.com/)
