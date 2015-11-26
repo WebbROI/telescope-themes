@@ -76,8 +76,16 @@ a:hover {
   text-transform: capitalize;
 }
 
-.account-link.sign-up {
-  margin-right: -27px;
+.account-link.sign-in.desktop-only {
+  margin-right: 10px;
+}
+
+.account-link.sign-up.desktop-only {
+  margin-right: -10px;
+}
+
+.account-link.sign-in.mobile-only {
+  border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
@@ -119,21 +127,21 @@ a:hover {
   background: transparent;
 }
 
-.iris-tabs-tab {
+.sideview-menu .menu-item {
   background: transparent;
   height: 50px;
 }
 
-.iris-tabs-tab a {
+.sideview-menu .menu-item a {
   text-transform: capitalize;
   color: #fff;
 }
 
-.iris-tabs-tab a:hover, .iris-tabs-tab a:focus {
+.sideview-menu .menu-item a:hover, .sideview-menu .menu-item a:focus {
   text-decoration: none;
 }
 
-.iris-tabs-tab .fa-line-chart {
+.menu-item-label .fa-line-chart {
   font-size: 20px;
 }
 
@@ -157,11 +165,11 @@ a:hover {
   line-height: 3em;
 }
 
-.fa-calendar-o, .fa-inbox, .fa-calendar {
+.fa-calendar-o, .fa-inbox, .fa-calendar, .fa-thumbs-down {
   font-size: 24px;
 }
 
-.fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x {
+.fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x, .fa-thumbs-down.fa-stack-1x {
   line-height: 3.4em;
 }
 
@@ -211,7 +219,7 @@ a:hover {
   width: 100px;
 }
 
-.side-nav .categories-menu.desktop-only .menu-top-level {
+.side-nav .categories-menu.desktop-only .menu-label-wrapper {
   display: block;
   cursor: pointer;
   border: 1px solid #ccc;
@@ -221,7 +229,7 @@ a:hover {
   background-color: #ccc;  
 }
 
-.side-nav .categories-menu.desktop-only .menu-top-level .menu-top-level-link {
+.side-nav .categories-menu.desktop-only .menu-label-wrapper .menu-label-text {
   font-weight: bold;
   color: #555;
 }
@@ -270,6 +278,10 @@ a:hover {
 }
 
 .views-menu-wrapper {
+  display: none;
+}
+
+.zone-wrapper.postsListTop .sideview-menu {
   display: none;
 }
 
@@ -366,7 +378,7 @@ a.read-more:link, a.read-more:hover {
   margin: 10px auto;
 }
 
-.side-nav .pages-menu a {
+.side-nav .pages-menu-item {
   display: inline-block;  
   padding: 15px 10px;  
 }
@@ -410,8 +422,22 @@ a.read-more:link, a.read-more:hover {
   z-index:100;
 }
 
+h1.logo.header-module.mobile-only {
+  padding-top: 2px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  width: 75%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 h1.logo.header-module.mobile-only .mobile-title {
   color: #000;
+}
+
+.grid-small.grid-block.dialog.no-rights {
+  margin-top: 30px;
 }
 
 /*---------------------------------------*/
@@ -451,13 +477,6 @@ h1.logo.header-module.mobile-only .mobile-title {
 }
 
 @media (max-width: 599px) {
-  .logo {
-    padding: 0 35px;
-    margin-top: 0;
-    margin-bottom: 0;    
-    text-align: center;
-  }
-  
   .side-nav .header {
     width: 100%;
     background-color: #fff;
@@ -473,8 +492,8 @@ h1.logo.header-module.mobile-only .mobile-title {
   .content-wrapper {
     overflow-x: hidden;
     position: relative;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
 
   .messages {
@@ -505,7 +524,7 @@ h1.logo.header-module.mobile-only .mobile-title {
     z-index: 99;  
   }
 
-  .iris-tabs-tab {
+  .sideview-menu .menu-item {
     display: inline;
   }
 
@@ -526,7 +545,7 @@ h1.logo.header-module.mobile-only .mobile-title {
     font-size: 1.5em;
   }
 
-  .iris-tabs-tab .fa-line-chart {
+  .menu-item-label .fa-line-chart {
     font-size: 15px;
   }
 
@@ -550,11 +569,11 @@ h1.logo.header-module.mobile-only .mobile-title {
     line-height: 3em;
   }
 
-  .fa-calendar-o, .fa-inbox, .fa-calendar {
+  .fa-calendar-o, .fa-inbox, .fa-calendar, .fa-thumbs-down {
     font-size: 18px;
   }
 
-  .fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x {
+  .fa-calendar-o.fa-stack-1x, .fa-inbox.fa-stack-1x, .fa-calendar.fa-stack-1x, .fa-thumbs-down.fa-stack-1x {
     line-height: 3.4em;
   }  
 
@@ -562,7 +581,7 @@ h1.logo.header-module.mobile-only .mobile-title {
     margin-right: 0;
   }
 
-  .side-nav .pages-menu a {
+  .side-nav .pages-menu-item {
     display: block;
     padding: 10px;  
     margin-bottom: 0;

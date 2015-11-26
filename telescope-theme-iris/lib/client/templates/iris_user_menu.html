@@ -1,16 +1,15 @@
 <template name="iris_user_menu">
 	<div class="user-menu-wrapper {{moduleClass}}">
   	{{#if isLoggedIn}}
-  		{{> menuComponent menuName="user" menuLabelTemplate="user_menu_label" menuLabelData=user menuItems=menuItems menuClass="mobile-only menu-collapsible"}}
-      {{> menuComponent menuName="user" menuLabelTemplate="user_menu_label" menuLabelData=user menuItems=menuItems menuClass="desktop-only menu-dropdown"}}          
+  		{{> menuComponent menuName="user" menuLabelTemplate="user_menu_label" menuItems=menuItems menuType="collapsible mobile-only" expandLevel=0}}          
+      {{> menuComponent menuName="user" menuLabelTemplate="user_menu_label" menuItems=menuItems menuType="dropdown desktop-only"}}          
   	{{else}}
   		<div class="signin-signup">
-  			<a class="account-link sign-in btn header-submodule btn-primary desktop-only" href="{{pathFor route='atSignUp'}}">{{_ "sign_up"}}</a>
-    		<a class="account-link sign-up btn header-submodule btn-primary desktop-only" href="{{pathFor route='atSignIn'}}">{{_ "sign_in"}}</a>
-    		<a class="account-link sign-in mobile-only" href="{{pathFor route='atSignUp'}}">{{_ "sign_up"}}</a>
-    		<a class="account-link sign-up mobile-only" href="{{pathFor route='atSignIn'}}">{{_ "sign_in"}}</a>
+  			<a class="account-link sign-in desktop-only" href="{{pathFor 'signUp'}}">{{_ "sign_up"}}</a>
+    		<a class="account-link sign-up desktop-only" href="{{pathFor 'signIn'}}">{{_ "sign_in"}}</a>
+    		<a class="account-link sign-in mobile-only" href="{{pathFor 'signUp'}}">{{_ "sign_up"}}</a>
+    		<a class="account-link sign-up mobile-only" href="{{pathFor 'signIn'}}">{{_ "sign_in"}}</a>
     	</div>
   	{{/if}}
   </div>
 </template>
-

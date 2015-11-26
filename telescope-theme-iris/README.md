@@ -1,7 +1,7 @@
 Telescope Iris Theme
 ========
 
-*Compatible with latest Telescope v0.24*
+*Compatible with latest Telescope v0.25*
 
 Telescope Iris is the first theme to be released by [WebbROI Telescope Themes](http://telescope-themes.meteor.com).
 
