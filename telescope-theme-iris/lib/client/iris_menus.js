@@ -30,7 +30,7 @@ var irisViewsMenuItems = [
     name: 'new',
     label: 'recent',
     menuIcon: 'fa-clock-o'
-  },
+  },  
   {
   	route: Posts.getRoute,
     name: 'best',
@@ -38,10 +38,17 @@ var irisViewsMenuItems = [
     menuIcon: 'fa-star'
   },
   {
+    route: Posts.getRoute,
+    name: 'daily',
+    label: 'daily',
+    menuIcon: 'fa-calendar-o',
+    viewTemplate: 'posts_daily'
+  },
+  {
   	route: Posts.getRoute,
     name: 'pending',
     label: 'pending',
-    menuIcon: 'fa-calendar-o',
+    menuIcon: 'fa-inbox',
     adminOnly: true
   },
   {

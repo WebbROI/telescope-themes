@@ -115,7 +115,7 @@ a:hover {
   display: block;
   width: 58px;
   height: 58px;
-  margin: 25px auto;
+  margin: 5px auto;
 }
 
 .iris-tabs-logo .logo-image {
@@ -456,7 +456,7 @@ h1.logo.header-module.mobile-only .mobile-title {
 @media screen and (min-width: 600px) {
   .side-nav .inner-wrapper {
     margin-left: 80px;
-    padding: 30px 42px;
+    padding: 13px 42px 30px 42px;
   }
 
   .side-nav .header {
@@ -538,7 +538,6 @@ h1.logo.header-module.mobile-only .mobile-title {
 
   .fa-stack {
     bottom: 5px;
-    width: 2.2em;
   }
 
   .fa-2x {
